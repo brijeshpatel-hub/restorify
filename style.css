@@ -1,0 +1,372 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('leaves-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 1; /* makes the entire background lighter */
+    color: #fff;
+}
+
+/* Top Banner */
+.top-banner {
+    background: rgba(255, 255, 255, 0.85);
+    color: #064d1a;
+    padding: 20px;
+    font-size: 26px;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+/* Mobile Container */
+.container {
+    padding: 20px;
+}
+
+/* Card Style */
+.card {
+    background: rgba(255, 255, 255, 0.92);
+    color: #064d1a;
+    border-radius: 18px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+/* Card Title */
+.card h1, .card h2 {
+    margin-top: 0;
+    font-weight: 800;
+}
+
+/* Mobile Menu */
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.menu a {
+    background: rgba(255,255,255,0.9);
+    color: #064d1a;
+    padding: 15px 18px;
+    border-radius: 14px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.menu a:hover {
+    background: #e8ffe8;
+}
+
+
+/* Centered mobile-width layout */
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers everything */
+}
+
+/* Mobile-style card */
+.card {
+    background: rgba(255, 255, 255, 0.92);
+    color: #064d1a;
+    border-radius: 18px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+
+    width: 100%;
+    max-width: 420px; /* <<< THIS makes it mobile-sized */
+}
+
+/* Mobile menu buttons */
+.menu {
+    width: 100%;
+    max-width: 420px; /* <<< same width as cards */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.menu a {
+    background: rgba(255,255,255,0.9);
+    color: #064d1a;
+    padding: 15px 18px;
+    border-radius: 14px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+
+/* Mobile menu buttons */
+.menu-center {
+    width: 100%;
+    max-width: 420px; /* <<< same width as cards */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+	text-align: center;
+}
+
+.menu-center a {
+    background: rgba(255,255,255,0.9);
+    color: #064d1a;
+    padding: 15px 18px;
+    border-radius: 14px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 800;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+	letter-spacing: 2px;
+}
+
+/* Mobile menu buttons */
+.menu-center2 {
+    width: 100%;
+    max-width: 520px; /* <<< same width as cards */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+	text-align: center;
+}
+
+.menu-center2 h1 {
+    background: rgba(255,255,255,0.9);
+    color: #064d1a;
+    padding: 15px 18px;
+    border-radius: 14px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 800;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+	letter-spacing: 2px;
+}
+
+.menu-center2 p {
+    background: rgba(255,255,255,0.9);
+    color: #064d1a;
+    padding: 15px 18px;
+    border-radius: 14px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Membership card row */
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 900px;
+}
+
+/* Premium card style */
+.card {
+    background: rgba(255, 255, 255, 0.92);
+    color: #064d1a;
+    border-radius: 18px;
+    padding: 22px;
+    width: 100%;
+    max-width: 260px; /* <<< skinny mobile-style width */
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    text-align: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover animation */
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.35);
+}
+
+/* Card titles */
+.card h2 {
+    margin-top: 0;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+/* Price text */
+.card p strong {
+    font-size: 20px;
+    color: #043d14;
+}
+
+
+.card-row a {
+    text-decoration: none;
+    color: #043d14;
+}
+
+
+/* Membership card row */
+.card-row2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1000px; /* more room for 3 cards */
+}
+
+/* Premium card style */
+.card2 {
+    background: rgba(255, 255, 255, 0.92);
+    color: #064d1a;
+    border-radius: 18px;
+    padding: 22px;
+    width: 100%;
+    max-width: 220px; /* <<< reduced from 260px to fit 3 per row */
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    text-align: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover animation */
+.card2:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.35);
+}
+
+
+/* Team row: 4 cards in one line */
+.team-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* keeps it responsive */
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Team cards: slightly narrower to fit 4 across */
+.team-card {
+    max-width: 220px; /* fits 4 in one row */
+}
+
+/* Profile photo styling */
+.profile-pic {
+    width: 100%;
+    max-width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+.logo-card {
+    background: rgba(255,255,255,0.92);
+    border-radius: 14px;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+.logo-img {
+    width: 240px;
+    border-radius: 50%;
+    margin-bottom: 6px;
+}
+
+.logo-title {
+    color: #064d1a;
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.logo-tagline {
+    color: #064d1a;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    font-weight: 800;
+}
+
+/* Hero card spacing */
+.hero-card {
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+/* Section divider */
+.section-divider {
+    width: 100%;
+    background: rgba(255,255,255,0.75);
+    padding: 6px 0;
+    text-align: center;
+    margin: 4px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.section-divider h2 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #064d1a;
+    letter-spacing: 1px;
+}
+
+
+.role {
+    font-size: 15px;
+    color: #064d1a;
+    opacity: 0.85;
+}
+
+
+/* Mission row: 3 cards */
+.mission-row {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 30px 0 40px 0;
+}
+
+.mission-card {
+    max-width: 260px;
+    padding: 22px;
+    text-align: center;
+}
+
+.mission-card h2 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #064d1a;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+
+.mission-card p {
+    font-size: 15px;
+    line-height: 1.45;
+    letter-spacing: 0.3px;
+}
+
+/* Divider */
+.section-divider {
+    width: 100%;
+    background: rgba(255,255,255,0.75);
+    padding: 4px 0;
+    text-align: center;
+    margin: 10px 0 4px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.section-divider h2 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #064d1a;
+    letter-spacing: 1px;
+}
